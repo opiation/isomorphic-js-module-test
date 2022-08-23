@@ -97,6 +97,8 @@ function some(value) {
  * A namespace for interacting with {@link Option}s.
  */
 export const Option = {
+  None,
+  Some,
   isSome,
   map,
   none,
